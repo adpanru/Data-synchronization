@@ -1,0 +1,35 @@
+server:
+  port: 8899
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/aa?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&AllowPublicKeyRetrieval=True
+    username: root
+    password: 2020
+  ##kafka的配置信息
+  kafka:
+    bootstrap-servers: 192.168.111.3:9092 # 集群用逗号分隔
+#    producer: # 生产者
+#      retries: 3 # 失败重试次数
+#      batch-size: 16384
+#      buffer-memory: 33554432
+#      acks: 1
+#      # 指定消息key和消息体的编解码方式
+#      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+#      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+#    consumer: # 消费者
+#      group-id: default-group # 消费组
+#      enable-auto-commit: false
+#      # auto-offset-reset: earliest
+#      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#    listener:
+#      ack-mode: MANUAL_IMMEDIATE
+  #redis配置信息
+  #redis配置信息
+  redis:
+    host: 120.48.17.2
+    port: 6379
+    password: 123456
+

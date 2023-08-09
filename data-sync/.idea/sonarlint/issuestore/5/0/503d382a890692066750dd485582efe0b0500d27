@@ -1,0 +1,14 @@
+
+X	java:S125"<This block of commented-out lines of code should be removed.(Ê×ãŞ8ÖÚÈ†›1
+j
+java:S1128"MRemove this unused import 'org.apache.kafka.clients.consumer.ConsumerRecord'.(±’–„8ÖÚÈ†›1
+l
+java:S1128"ORemove this unused import 'org.springframework.kafka.annotation.KafkaListener'.(ıª«¬8×ÚÈ†›1
+g
+java:S1128"KRemove this unused import 'org.springframework.kafka.support.KafkaHeaders'.(–ÿ—58áº¼æš1
+r
+java:S1128"URemove this unused import 'org.springframework.messaging.handler.annotation.Headers'.(éİ¡8áº¼æš1
+r
+java:S1128"URemove this unused import 'org.springframework.messaging.handler.annotation.Payload'.(®èÍ8áº¼æš1
+Q
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ8×ÚÈ†›1
